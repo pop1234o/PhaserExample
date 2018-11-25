@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        //  Note that this html file is set to pull down Phaser 2.5.0 from the JS Delivr CDN.
+        //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
+        //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
+
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', {preload: preload, create: create,update: update});
+
+        function preload() {
+
+            game.load.image('lazur', 'assets/pics/thorn_lazur.png');
+            //这里是表示这个png中，一个帧大小是37x45，坐标原点左上角，然后一共有18帧，这样游戏引擎就知道图片中每一帧的位置
+            //和有多少帧了
+            //这种事对于规则的图片，不规则的只能用json来定义了。。
+            game.load.spritesheet('mummy', 'assets/sprites/metalslug_mummy37x45.png', 37, 45, 18);
+
+        }
+
+        var back;
+
+        //这个是一个帧动画播放，然后背景一直后退的原理
+        function create() {
+
+
+            back = game.add.image(0, -400, 'lazur')
+            back.scale.set(2);
+            back.smoothed = false;
+
+            var mummy = game.add.sprite(200, 360, "mummy", 5);
+            mummy.scale.set(4);
+            mummy.smoothed = false;
+
+            var anim = mummy.animations.add('walk');
+
+            // anim.onLoop.add(function () {
+            //     back.x -= 10;
+            //
+            // })
+
+            anim.play(10, true);
+
+        }
+
+        function update() {
+            back.x -= 1;
+        }
+
+    };
+
+</script>
+
+</body>
+</html>
