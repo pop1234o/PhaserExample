@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        //  Note that this html file is set to pull down Phaser 2.5.0 from the JS Delivr CDN.
+        //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
+        //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
+
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', {preload: preload, create: create});
+
+        function preload() {
+
+            //和atlas区别 expects the atlas data to be in a JSON Hash format
+            game.load.atlasJSONHash('bot', 'assets/sprites/running_bot.png', 'assets/sprites/running_bot.json');
+            game.load.spritesheet('mummy', 'assets/sprites/metalslug_mummy37x45.png', 37, 45, 18);
+
+        }
+
+
+        //监听点击事件，然后改变精灵的纹理
+        function create() {
+
+
+            var bot = game.add.sprite(200, 200, 'bot');
+            bot.animations.add('run')//添加了一个动画对象
+            bot.animations.play('run', 15, true)
+            game.input.onDown.addOnce(function () {
+                bot.loadTexture('mummy', 0)//改变纹理
+                bot.animations.add("walk")
+                bot.animations.play('walk', 10, true)
+            }, this)
+
+
+        }
+
+
+    };
+
+</script>
+
+</body>
+</html>
