@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create });
+
+        function preload() {
+
+            //加载僵尸，然后指定每一帧位置，好播动画
+            game.load.spritesheet('mummy', 'assets/sprites/metalslug_mummy37x45.png', 37, 45, 18);
+        }
+
+        var text;
+
+        function create() {
+
+            //add属性是Phaser.GameObjectFactory 工厂，和make差不多。。
+            var mummy = game.add.sprite(300, 200, 'mummy');
+
+
+            //指向AnimationManager 实例，可以添加动画，播放等
+            var walk = mummy.animations.add('walk');
+
+            walk.enableUpdate = true;
+            //监听动画的每一帧
+            walk.onUpdate.add(onUpdate, this);
+
+            mummy.animations.play('walk', 5, true);
+
+            //添加文字，大小和字号
+            text = game.add.text(300, 264, "Frame 1", { font: "28px Arial", fill: "#ff0044" });
+
+        }
+
+        function onUpdate(anim, frame) {
+
+            text.text = 'Frame ' + frame.index;
+
+        }
+    };
+
+</script>
+
+</body>
+</html>

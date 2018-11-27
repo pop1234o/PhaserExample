@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        //  Note that this html file is set to pull down Phaser 2.5.0 from the JS Delivr CDN.
+        //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
+        //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
+
+        //画布大小，用什么渲染，回调方法
+        var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', {
+            preload: preload,
+            create: create,
+            update: update,
+            render: render
+        });
+
+        function render() {
+
+        }
+
+        function preload() {
+
+            game.load.spritesheet('mummy', 'assets/sprites/metalslug_mummy37x45.png', 37, 45, 18)
+        }
+
+        var sprites;
+
+        function create() {
+
+            // allows for fast pooling, recycling and collision checks.
+            sprites = game.add.group();
+
+            //一直循环
+            // game.time.events.loop(10, createSprite, this)
+
+            for (let i = 0; i < 10; i++) {
+                createSprite()
+            }
+        }
+
+        function createSprite() {
+            var mummy;
+            mummy = sprites.create(game.world.randomX, game.world.randomY, 'mummy');
+            mummy.animations.add("walk")
+            mummy.play("walk",10, true)
+        }
+
+
+        function update() {
+            //设置所有精灵的x属性加10   ,1代表加法
+            sprites.setAll("x",1,true,true,1)
+            sprites.forEach(function (sprite) {
+
+                if(sprite.x>game.width){
+                    sprites.remove(sprite)
+                }
+            },this,true);
+
+        }
+
+
+    };
+
+</script>
+
+</body>
+</html>

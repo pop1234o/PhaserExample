@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_4_Creature_Dragon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/creature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/p2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/phaser-creature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/pixi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Phaser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Phaser.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_5_Creature_Dragon_Multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_6_Creature Phoenix.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_7_Destroy_Animation_大量精灵创建和销毁.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -66,11 +65,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Animation_4_Creature_Dragon.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/Animation_4_Creature_Dragon.html">
+      <file leaf-file-name="Animation_7_Destroy_Animation_大量精灵创建和销毁.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_7_Destroy_Animation_大量精灵创建和销毁.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="270">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_8_Dynamic_Animation_动态实现精灵表格.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_9_Frame_Update_监听动画帧.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_9_Group_Creation_创造一组精灵.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_11_Load Texture_切换纹理.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_creature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_creature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="50575" column="4" selection-start-line="50575" selection-start-column="4" selection-end-line="50575" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phaser-creature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/libs/phaser-creature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="50364" column="4" selection-start-line="50364" selection-start-column="4" selection-end-line="50364" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="33559" selection-start-line="33559" selection-end-line="33559" />
             </state>
           </provider>
         </entry>
@@ -82,6 +162,7 @@
       <find>metalslug_mummy37x45</find>
       <find>require</find>
       <find>Phaser.Creature</find>
+      <find>renderType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,6 +180,15 @@
         <option value="$PROJECT_DIR$/example/Animation_2_Change_Texture_On_Click.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/example/Animation_4_Creature_Dragon.html" />
+        <option value="$PROJECT_DIR$/example/Animation_5_Creature_Dragon_Multiple.html" />
+        <option value="$PROJECT_DIR$/example/Animation_6_Creature Phoenix.html" />
+        <option value="$PROJECT_DIR$/example/Animation_7_Destroy_Animation.html" />
+        <option value="$PROJECT_DIR$/example/Animation_8_Dynamic_Animation.html" />
+        <option value="$PROJECT_DIR$/example/Animation_9_Frame_Update.html" />
+        <option value="$PROJECT_DIR$/example/Animation_9_Group_Creation.html" />
+        <option value="$PROJECT_DIR$/example/Animation_11_Load Texture.html" />
+        <option value="$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" />
+        <option value="$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html" />
       </list>
     </option>
   </component>
@@ -109,10 +199,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="296" />
-    <option name="y" value="60" />
-    <option name="width" value="838" />
-    <option name="height" value="598" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -134,12 +224,6 @@
             </path>
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -154,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="dragon&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/dragon.json&#10;deepblue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/skies/deepblue.png&#10;seacreatures_json&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/seacreatures_json.json&#10;running_bot&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/running_bot.png&#10;metalslug_mummy37x45&#9;FILE&#9;file:///Users/liyafeng/Documents/WebStormPro/Phaser/assets/sprites/metalslug_mummy37x45.png" />
+    <property name="SearchEverywhereHistoryKey" value="seabed&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/seabed.png&#10;undersea&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/particlestorm/undersea.jpg&#10;seacreatures_json&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/seacreatures_json.png&#10;orb-blue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/orb-blue.png&#10;phoenix&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/phoenix.json&#10;dragon&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/dragon.json&#10;deepblue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/skies/deepblue.png&#10;running_bot&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/running_bot.png&#10;metalslug_mummy37x45&#9;FILE&#9;file:///Users/liyafeng/Documents/WebStormPro/Phaser/assets/sprites/metalslug_mummy37x45.png" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhaserExample" />
@@ -171,8 +255,8 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebStromPro\PhaserEx\example\libs" />
       <recent name="E:\WebStromPro\PhaserEx\example" />
+      <recent name="E:\WebStromPro\PhaserEx\example\libs" />
       <recent name="$PROJECT_DIR$/example" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -204,25 +288,25 @@
       <workItem from="1543065941632" duration="1056000" />
       <workItem from="1543151251264" duration="6752000" />
       <workItem from="1543203647610" duration="7559000" />
-      <workItem from="1543232436845" duration="7075000" />
+      <workItem from="1543232436845" duration="13576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23213000" />
+    <option name="totallyTimeSpent" value="29714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32650074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3330844" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298791" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -238,18 +322,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24876848" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3330844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298791" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -372,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="51476" column="37" selection-start-line="51476" selection-start-column="22" selection-end-line="51476" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -393,24 +470,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3193">
-          <caret line="89112" column="1" lean-forward="true" selection-start-line="89112" selection-start-column="1" selection-end-line="89112" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="47821" column="32" lean-forward="true" selection-start-line="47821" selection-start-column="32" selection-end-line="47821" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/libs/p2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/libs/phaser-creature.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/libs/pixi.js">
@@ -421,8 +481,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Animation_4_Creature_Dragon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="190">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_5_Creature_Dragon_Multiple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/creature/phoenix.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret column="474" selection-end-column="13460150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/creature/phoenix.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_6_Creature Phoenix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="51104" column="10" lean-forward="true" selection-start-line="51104" selection-start-column="10" selection-end-line="51104" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/sprites/orb-blue.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_7_Destroy_Animation_大量精灵创建和销毁.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/libs/phaser-creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="50364" column="4" selection-start-line="50364" selection-start-column="4" selection-end-line="50364" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/sprites/seacreatures_json.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/particlestorm/undersea.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/pics/seabed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="33559" selection-start-line="33559" selection-end-line="33559" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="50575" column="4" selection-start-line="50575" selection-start-column="4" selection-end-line="50575" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>

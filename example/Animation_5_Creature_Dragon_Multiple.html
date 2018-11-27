@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <!--<script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        //  Note that this html file is set to pull down Phaser 2.5.0 from the JS Delivr CDN.
+        //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
+        //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
+
+        //画布大小，用什么渲染，回调方法
+        var game = new Phaser.Game(800, 600, Phaser.WEBGL, 'phaser-example', {
+            preload: preload,
+            create: create,
+            update: update
+        });
+
+        function preload() {
+
+            game.load.image('sky', 'assets/skies/deepblue.png');
+            game.load.image('dragonTexture', 'assets/creature/dragon.png');//图片
+            game.load.json('dragonMesh', 'assets/creature/dragon.json');//动画的json文件
+        }
+
+        var dragon1;
+        var dragon2;
+
+        function create() {
+
+
+            game.add.image(0, 0, 'sky');
+            //http://www.html5gamedevs.com/topic/28612-ccreature-is-not-a-constructor/
+
+            dragon1 = game.add.creature(150, 200, 'dragonTexture', 'dragonMesh');
+            dragon1.scale.set(10.0);
+            dragon1.play(true)
+
+
+            dragon2 = game.add.creature(0, 400, 'dragonTexture', 'dragonMesh');
+            dragon2.scale.set(20.0);
+            dragon2.play(true)
+
+        }
+
+        function update() {
+
+            dragon1.x+=1;
+
+            if(dragon1.x>1000){
+                dragon1.x=0
+            }
+
+            dragon2.x+=2;
+            if(dragon2.x>1000){
+                dragon2.x=0
+            }
+
+        }
+
+
+    };
+
+</script>
+
+</body>
+</html>

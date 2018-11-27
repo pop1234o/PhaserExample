@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
+
+        function preload() {
+
+            //海洋生物图集
+            game.load.atlas('seacreatures', 'assets/sprites/seacreatures_json.png', 'assets/sprites/seacreatures_json.json');
+            game.load.image('undersea', 'assets/pics/undersea.jpg');
+            game.load.image('coral', 'assets/pics/seabed.png');
+
+        }
+
+        function create() {
+
+            game.add.sprite(0, 0, 'undersea');
+
+            //  Here we create our group and populate it with 6 sprites
+            //添加组
+            var group = game.add.group();
+
+            for (var i = 0; i < 6; i++)
+            {
+                //  They are evenly spaced out on the X coordinate, with a random Y coordinate
+               //添加图集，指定帧名
+                sprite = group.create(120 * i, game.rnd.integerInRange(100, 400), 'seacreatures', 'octopus0000');
+            }
+
+            //  These are the frame names for the octopus animation. We use the generateFrames function to help create the array.
+
+            //生成帧的名称数组，   octopus 前缀，开始数字，结尾数字，后缀，位数
+            var frameNames = Phaser.Animation.generateFrameNames('octopus', 0, 24, '', 4);
+
+            //  Here is the important part. Group.callAll will call a method that exists on every child in the Group.
+            //  In this case we're saying: child.animations.add('swim', frameNames, 30, true, false)
+            //  The second parameter ('animations') is really important and is the context in which the method is called.
+            //  For animations the context is the Phaser.AnimationManager, which is linked to the child.animations property.
+            //  Everything after the 2nd parameter is just the usual values you'd pass to the animations.add method.
+
+            //调用组中精灵的所有方法，添加动画
+            group.callAll('animations.add', 'animations', 'swim', frameNames, 30, true, false);
+
+            //  Here we just say 'play the swim animation', this time the 'play' method exists on the child itself, so we can set the context to null.
+            //播放
+            group.callAll('play', null, 'swim');
+
+            //底层
+            game.add.sprite(0, 466, 'coral');
+
+        }
+
+    };
+
+</script>
+
+</body>
+</html>
