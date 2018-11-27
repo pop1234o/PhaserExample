@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_5_Creature_Dragon_Multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_6_Creature Phoenix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_7_Destroy_Animation_大量精灵创建和销毁.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Animation_18_Two Frame Test_监听键盘操控.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Arcade_1_Accelerate To Pointer_鼠标跟随.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Arcade_2_Angle Between_鼠标拖动_精灵之间的角度.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Animation_14_Multiple Anims_播放图集动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/Animation_14_Multiple Anims_播放图集动画.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/Animation_10_Group_Creation_创造一组精灵.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,65 +62,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Animation_7_Destroy_Animation_大量精灵创建和销毁.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_7_Destroy_Animation_大量精灵创建和销毁.html">
+      <file leaf-file-name="Animation_14_Multiple Anims_播放图集动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_14_Multiple Anims_播放图集动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="231">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation_8_Dynamic_Animation_动态实现精灵表格.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
+      <file leaf-file-name="Animation_18_Two Frame Test_监听键盘操控.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_18_Two Frame Test_监听键盘操控.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="297">
+              <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation_9_Frame_Update_监听动画帧.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+      <file leaf-file-name="Arcade_1_Accelerate To Pointer_鼠标跟随.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Arcade_1_Accelerate To Pointer_鼠标跟随.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+            <state relative-caret-position="142">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html">
+      <file leaf-file-name="Arcade_2_Angle Between_鼠标拖动_精灵之间的角度.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/Arcade_2_Angle Between_鼠标拖动_精灵之间的角度.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation_9_Group_Creation_创造一组精灵.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation_11_Load Texture_切换纹理.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_creature.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_creature.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="165" column="8" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
+            <state relative-caret-position="241">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -131,17 +101,44 @@
       <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="50575" column="4" selection-start-line="50575" selection-start-column="4" selection-end-line="50575" selection-end-column="4" />
+            <state relative-caret-position="322">
+              <caret line="50185" column="4" selection-start-line="50185" selection-start-column="4" selection-end-line="50185" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phaser-creature.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/libs/phaser-creature.js">
+      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="50364" column="4" selection-start-line="50364" selection-start-column="4" selection-end-line="50364" selection-end-column="4" />
+            <state relative-caret-position="287">
+              <caret line="48119" column="4" selection-start-line="48119" selection-start-column="4" selection-end-line="48119" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_9_Frame_Update_监听动画帧.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_11_Load Texture_切换纹理.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -149,8 +146,8 @@
       <file leaf-file-name="http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="33559" selection-start-line="33559" selection-end-line="33559" />
+            <state relative-caret-position="274">
+              <caret line="44170" column="4" selection-start-line="44170" selection-start-column="4" selection-end-line="44170" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -189,6 +186,10 @@
         <option value="$PROJECT_DIR$/example/Animation_11_Load Texture.html" />
         <option value="$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html" />
         <option value="$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html" />
+        <option value="$PROJECT_DIR$/example/Animation_14_Multiple Anims_播放图集动画.html" />
+        <option value="$PROJECT_DIR$/example/Animation_18_Two Frame Test_监听键盘操控.html" />
+        <option value="$PROJECT_DIR$/example/Arcade_1_Accelerate To Pointer_鼠标跟随.html" />
+        <option value="$PROJECT_DIR$/example/Arcade_2_Angle Between_鼠标拖动_精灵之间的角度.html" />
       </list>
     </option>
   </component>
@@ -238,7 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="seabed&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/seabed.png&#10;undersea&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/particlestorm/undersea.jpg&#10;seacreatures_json&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/seacreatures_json.png&#10;orb-blue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/orb-blue.png&#10;phoenix&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/phoenix.json&#10;dragon&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/dragon.json&#10;deepblue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/skies/deepblue.png&#10;running_bot&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/running_bot.png&#10;metalslug_mummy37x45&#9;FILE&#9;file:///Users/liyafeng/Documents/WebStormPro/Phaser/assets/sprites/metalslug_mummy37x45.png" />
+    <property name="SearchEverywhereHistoryKey" value="longarrow&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/longarrow.png&#10;spaceman&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/spaceman.png&#10;seabed&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/seabed.png&#10;undersea&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/particlestorm/undersea.jpg&#10;seacreatures_json&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/seacreatures_json.png&#10;orb-blue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/orb-blue.png&#10;phoenix&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/phoenix.json&#10;dragon&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/creature/dragon.json&#10;deepblue&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/skies/deepblue.png&#10;running_bot&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/running_bot.png&#10;metalslug_mummy37x45&#9;FILE&#9;file:///Users/liyafeng/Documents/WebStormPro/Phaser/assets/sprites/metalslug_mummy37x45.png" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhaserExample" />
@@ -288,12 +289,12 @@
       <workItem from="1543065941632" duration="1056000" />
       <workItem from="1543151251264" duration="6752000" />
       <workItem from="1543203647610" duration="7559000" />
-      <workItem from="1543232436845" duration="13576000" />
+      <workItem from="1543232436845" duration="18469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29714000" />
+    <option name="totallyTimeSpent" value="34607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -306,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298791" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24697755" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="51104" column="10" lean-forward="true" selection-start-line="51104" selection-start-column="10" selection-end-line="51104" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/assets/sprites/orb-blue.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -543,6 +537,34 @@
     <entry file="file://$PROJECT_DIR$/example/assets/pics/seabed.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_10_Group_Creation_创造一组精灵.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_creature.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -550,52 +572,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="48119" column="4" selection-start-line="48119" selection-start-column="4" selection-end-line="48119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/sprites/spaceman.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_14_Multiple Anims_播放图集动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="33559" selection-start-line="33559" selection-end-line="33559" />
+        <state relative-caret-position="274">
+          <caret line="44170" column="4" selection-start-line="44170" selection-start-column="4" selection-end-line="44170" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_18_Two Frame Test_监听键盘操控.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/sprites/longarrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Arcade_1_Accelerate To Pointer_鼠标跟随.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="50575" column="4" selection-start-line="50575" selection-start-column="4" selection-end-line="50575" selection-end-column="4" />
+        <state relative-caret-position="322">
+          <caret line="50185" column="4" selection-start-line="50185" selection-start-column="4" selection-end-line="50185" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+    <entry file="file://$PROJECT_DIR$/example/Arcade_2_Angle Between_鼠标拖动_精灵之间的角度.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_12_Local_Json_Object_使用本地的json来创建图集动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="144" column="19" lean-forward="true" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_9_Group_Creation_创造一组精灵.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_11_Load Texture_切换纹理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="241">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>

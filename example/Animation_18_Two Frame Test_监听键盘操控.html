@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+
+        function preload() {
+
+            //加载精灵表格
+            game.load.spritesheet('player', 'assets/sprites/spaceman.png', 16, 16);
+
+        }
+
+        var cursors;
+        var player;
+        var left;
+        var right;
+
+        function create() {
+
+            game.stage.backgroundColor = '#ff00ff';
+
+            player = game.add.sprite(48, 48, 'player', 1);
+            player.smoothed = false;
+            player.scale.set(4);
+
+            //加载表格中的指定帧，每秒10帧，循环，且添加了动画名称
+            //如果只有名称，那么久播放所有帧
+            left = player.animations.add('left', [8,9], 10, true);
+            right = player.animations.add('right', [1,2], 10, true);
+            player.animations.add('up', [11,12,13], 10, true);
+            player.animations.add('down', [4,5,6], 10, true);
+
+            //给精灵一个物理实体
+            game.physics.enable(player, Phaser.Physics.ARCADE);
+
+            //返回包含 Up, Down, Left and Right 的键盘对象
+            cursors = game.input.keyboard.createCursorKeys();
+
+        }
+
+        function update() {
+
+            //x y 方向速度设置为 0
+            player.body.velocity.set(0);
+
+            if (cursors.left.isDown)//按下事件
+            {
+                //向下速度设置为100
+                player.body.velocity.x = -100;
+                //播放动画
+                player.play('left');
+            }
+            else if (cursors.right.isDown)
+            {
+                player.body.velocity.x = 100;
+                player.play('right');
+            }
+            else if (cursors.up.isDown)
+            {
+                player.body.velocity.y = -100;
+                player.play('up');
+            }
+            else if (cursors.down.isDown)
+            {
+                player.body.velocity.y = 100;
+                player.play('down');
+            }
+            else //一般是up事件
+            {
+                player.animations.stop();
+            }
+
+        }
+
+        function render() {
+
+            game.debug.text(player.frame, 32, 32);
+
+        }
+
+
+
+
+    };
+
+</script>
+
+</body>
+</html>

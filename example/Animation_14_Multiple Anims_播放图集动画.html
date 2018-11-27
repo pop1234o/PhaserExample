@@ -60,7 +60,9 @@
 
             //  In the texture atlas the jellyfish uses the frame names blueJellyfish0000 to blueJellyfish0032
             //  So we can use the handy generateFrameNames function to create this for us.
+            //默认第0帧
             jellyfish = game.add.sprite(670, 20, 'seacreatures');
+            // 生成帧数组
             jellyfish.animations.add('swim', Phaser.Animation.generateFrameNames('blueJellyfish', 0, 32, '', 4), 30, true);
             jellyfish.animations.play('swim');
 
@@ -99,6 +101,7 @@
 
             // to: function ( properties, duration, ease, autoStart, delay, repeat, yoyo ) {
 
+            //补间动画， x坐标，时长，拦截器，是否自动开始，重复次数，是否反转
             game.add.tween(purpleFish).to({ x: -200 }, 7500, Phaser.Easing.Quadratic.InOut, true, 0, 1000, false);
             game.add.tween(octopus).to({ y: 530 }, 2000, Phaser.Easing.Quadratic.InOut, true, 0, 1000, true);
             game.add.tween(greenJellyfish).to({ y: 250 }, 4000, Phaser.Easing.Quadratic.InOut, true, 0, 1000, true);

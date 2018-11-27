@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update, render: render });
+
+        function preload() {
+            game.load.image('arrow', 'assets/sprites/arrow.png');
+        }
+
+        var sprite;
+
+        function create() {
+
+            game.physics.startSystem(Phaser.Physics.ARCADE);
+
+            game.stage.backgroundColor = '#0072bc';
+
+            sprite = game.add.sprite(400, 300, 'arrow');
+            //设置精灵锚点
+            sprite.anchor.setTo(0.5, 0.5);
+
+            //  Enable Arcade Physics for the sprite
+            game.physics.enable(sprite, Phaser.Physics.ARCADE);
+
+            //  Tell it we don't want physics to manage the rotation
+            sprite.body.allowRotation = false;
+
+        }
+
+        function update() {
+
+            //跟随鼠标，精灵对象，速度，跟随的点，最大到达跟随点的时间
+            //返回到跟随点应该旋转的角度
+            sprite.rotation = game.physics.arcade.moveToPointer(sprite, 60, game.input.activePointer, 500);
+
+        }
+
+        function render() {
+
+            //精灵对象的信息
+            game.debug.spriteInfo(sprite, 32, 32);
+
+        }
+
+
+    };
+
+</script>
+
+</body>
+</html>
