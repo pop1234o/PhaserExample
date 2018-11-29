@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--    <script src="libs/pixi.js"></script>
+        <script src="libs/p2.js"></script>
+        &lt;!&ndash;<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>&ndash;&gt;
+        <script src="libs/creature.js"></script>
+        <script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', {
+            preload: preload,
+            create: create,
+            update: update,
+            render: render
+        });
+
+        function preload() {
+            game.load.image('space', 'assets/skies/deep-space.jpg');
+            game.load.image('bullet', 'assets/games/asteroids/bullets.png');
+            game.load.image('ship', 'assets/games/asteroids/ship.png');
+
+        }
+
+        var cursors
+        var bullets
+        var sprite
+
+        function create() {
+
+            game.renderer.clearBeforeRender = false;
+            game.renderer.roundPixels = true;
+            //  We need arcade physics
+            game.physics.startSystem(Phaser.Physics.ARCADE);
+
+            game.add.tileSprite(0, 0, game.width, game.height, 'space');
+
+            bullets = game.add.group();
+            bullets.enableBody = true;
+            bullets.physicsBodyType = Phaser.Physics.ARCADE;
+
+            bullets.createMultiple(40, 'bullet')
+            bullets.setAll('anchor.x', 0.5)
+            bullets.setAll('anchor.y', 0.5)
+
+
+            sprite = game.add.sprite(300, 300, 'ship');
+            sprite.anchor.set(0.5)
+
+            game.physics.enable(sprite, Phaser.Physics.ARCADE)
+
+            //拖动的加速度？？
+            sprite.body.drag.set(100)
+            //最大速度
+            sprite.body.maxVelocity.set(300)
+
+            cursors = game.input.keyboard.createCursorKeys();
+
+            game.input.keyboard.addKeyCapture([Phaser.Keyboard.SPACEBAR])
+
+
+        }
+
+        function update() {
+
+            if (cursors.up.isDown) {
+                //在某个角度上给物体一个 加速度
+                // game.physics.arcade.accelerationFromRotation(sprite.rotation, 200, sprite.body.acceleration);
+                //这里是设置一个速度
+                game.physics.arcade.velocityFromRotation(sprite.rotation, 200, sprite.body.velocity)
+            } else {
+                // sprite.body.acceleration.set(0)
+                //这里必须用set velocity是一个对象，如果=0相当于将他设置为number对象了
+                sprite.body.velocity.set(0)
+            }
+
+            //精灵的角速度
+            if (cursors.left.isDown) {
+                sprite.body.angularVelocity = -300;
+            }
+            else if (cursors.right.isDown) {
+                sprite.body.angularVelocity = 300;
+            }
+            else {
+                //如果不置为0就一直有角速度
+                sprite.body.angularVelocity = 0;
+            }
+
+            if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR)) {
+                fireBullet()
+            }
+
+            screenWarp(sprite)
+
+            bullets.forEachExists(screenWarp, this)
+
+        }
+
+        var bulletTime = 0
+
+        function fireBullet() {
+
+            if (game.time.now > bulletTime) {
+
+                //找到第一个不存在的精灵，就是没有显示的
+                var bullet = bullets.getFirstExists(false);
+                if (bullet) {
+                    //出现在飞机的左上角，如果不加16
+                    bullet.reset(sprite.body.x + 16, sprite.body.y + 16);
+                    bullet.lifespan = 2000
+                    bullet.rotation = sprite.rotation;
+                    //给子弹一个指定角度的速度
+                    game.physics.arcade.velocityFromRotation(sprite.rotation, 400, bullet.body.velocity)
+                    // 子弹发射的间隔时间
+                    bulletTime = game.time.now + 5;
+
+                }
+            }
+
+        }
+
+        function screenWarp(sprite) {
+
+            if (sprite.x < 0) {
+                sprite.x = 0
+            }
+            if (sprite.x > game.width) {
+                sprite.x = game.width
+            }
+            if (sprite.y < 0) {
+                sprite.y = 0
+            }
+            if (sprite.y > game.height) {
+                sprite.y = game.height
+            }
+        }
+
+        function render() {
+
+
+        }
+    };
+
+</script>
+
+</body>
+</html>
