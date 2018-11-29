@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>hello phaser!</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser-ce@2.11.1"></script>
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="https://github.com/photonstorm/phaser-ce/blob/master/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/pixi.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/p2.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/creature.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/custom/phaser-creature.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/phaser-ce@2.11.1/build/phaser.js"></script>-->
+    <!--<script src="http://cdn.jsdelivr.net/phaser/2.5.0/phaser.js"></script>-->
+
+    <!--注意，不能引用"https://github.com这个域名的js，因为github的服务器不允许跨域访问js-->
+
+
+    <!--<script src="libs/pixi.js"></script>-->
+    <!--<script src="libs/p2.js"></script>-->
+    <!--<script src="libs/creature.js"></script>-->
+    <!--<script src="libs/phaser-creature.js"></script>-->
+</head>
+<body>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+
+        var game = new Phaser.Game(document.documentElement.clientWidth, document.documentElement.clientHeight, Phaser.AUTO, 'phaser-example', {preload:preload, create: create, update: update });
+
+        function preload() {
+            game.load.atlas('seacreatures', 'assets/sprites/seacreatures_json.png', 'assets/sprites/seacreatures_json.json');
+        }
+        function create() {
+
+            //  From http://glslsandbox.com/e#20461.1
+
+            game.add.sprite()
+        }
+
+        function update() {
+
+
+        }
+
+    };
+
+</script>
+
+</body>
+</html>
