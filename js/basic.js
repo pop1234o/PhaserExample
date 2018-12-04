@@ -42,3 +42,19 @@
  *
  *
 * */
+
+/**
+ * 原因是加载了两次同样key的资源
+* Uncaught TypeError: Cannot read property 'compressionAlgorithm' of null
+ at ./libs/phaser/pixi.js.PIXI.BaseTexture.updateTexture (pixi.js:7488)
+ at ./libs/phaser/pixi.js.PIXI.WebGLRenderer.updateTexture (pixi.js:3821)
+ at ./libs/phaser/pixi.js.PIXI.WebGLSpriteBatch.renderBatch (pixi.js:5356)
+ at ./libs/phaser/pixi.js.PIXI.WebGLSpriteBatch.flush (pixi.js:5335)
+ at ./libs/phaser/pixi.js.PIXI.WebGLSpriteBatch.stop (pixi.js:5373)
+ at PhaserSlotMeshDisplay../libs/phaser/phaser-split.js.Phaser.BaseMesh._renderWebGL (phaser-split.js:95692)
+ at PhaserArmatureDisplay../libs/phaser/pixi.js.PIXI.Sprite._renderWebGL (pixi.js:1939)
+ at ./libs/phaser/phaser-split.js.Phaser.World../libs/phaser/pixi.js.PIXI.DisplayObjectContainer._renderWebGL (pixi.js:1420)
+ at ./libs/phaser/phaser-split.js.Phaser.Stage../libs/phaser/pixi.js.PIXI.DisplayObjectContainer._renderWebGL (pixi.js:1420)
+ at ./libs/phaser/pixi.js.PIXI.WebGLRenderer.renderDisplayObject (pixi.js:3769)
+*
+* */
