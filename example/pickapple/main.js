@@ -22,6 +22,8 @@ var states = {
 
             game.load.audio("boss_hit", "../assets/audio/SoundEffects/boss_hit.wav");
 
+            loadDragonbone("../assets/dragonbone/",)
+
             //region
 
             var phaserText = game.add.text(game.world.centerX, game.world.centerY, "0%", {
@@ -54,6 +56,10 @@ var states = {
             //endregion
 
         }
+        function loadDragonbone(path) {
+            game.load.image();
+            game.load.json();
+        }
     },
     state_play: function () {
 
@@ -81,6 +87,13 @@ var states = {
             var sprite = game.add.sprite(100, 100, "mummy", 0, group);
             //PIXI.DisplayObject中的方法
             sprite.scale.setTo(2);
+            sprite.smoothed = false;
+            sprite.animations.add("walk");
+            sprite.animations.play("walk", 10, true, false);
+
+
+
+
 
         }
     },
