@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/libs/dragonbones/dragonBones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/dragonbones/dragonBones.max.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/dragonbones/dragonBones.max.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/libs/dragonbones/dragonBones.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/lesson.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pickapple/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/pickapple/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pickapple/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/pickapple/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="288">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="e#1305#1313#0" />
               </folding>
@@ -78,11 +73,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
+      <file leaf-file-name="Animation_8_Dynamic_Animation_动态实现精灵表格.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="72444" column="4" selection-start-line="72444" selection-start-column="4" selection-end-line="72444" selection-end-column="4" />
+            <state relative-caret-position="-729" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_2_Change_Frame.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -99,17 +101,8 @@
       <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="28848" column="39" selection-start-line="28848" selection-start-column="39" selection-end-line="28848" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation_1_Events.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="39" />
+            <state relative-caret-position="72">
+              <caret line="56545" column="28" selection-start-line="56545" selection-start-column="28" selection-end-line="56545" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -117,8 +110,8 @@
       <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2563">
-              <caret line="52462" column="49" selection-start-line="52462" selection-start-column="49" selection-end-line="52462" selection-end-column="49" />
+            <state relative-caret-position="153">
+              <caret line="78285" column="4" selection-start-line="78285" selection-start-column="4" selection-end-line="78285" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -148,6 +141,7 @@
       <find>game.load.</find>
       <find>add</find>
       <find>centerX</find>
+      <find>getj</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,6 +189,7 @@
         <option value="$PROJECT_DIR$/js/basic.js" />
         <option value="$PROJECT_DIR$/example/pickapple/index.html" />
         <option value="$PROJECT_DIR$/example/pickapple/main.js" />
+        <option value="$PROJECT_DIR$/engine/lesson.json" />
       </list>
     </option>
   </component>
@@ -227,26 +222,12 @@
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="dragonbone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
@@ -331,25 +312,25 @@
       <workItem from="1543203647610" duration="7559000" />
       <workItem from="1543232436845" duration="65162000" />
       <workItem from="1543737258283" duration="2968000" />
-      <workItem from="1544009759429" duration="4752000" />
+      <workItem from="1544009759429" duration="13447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106865000" />
+    <option name="totallyTimeSpent" value="115560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.21973094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.357997" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5051814" side_tool="true" weight="0.17862481" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.098958336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,20 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="81" column="69" selection-start-line="81" selection-start-column="69" selection-end-line="81" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -467,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -492,20 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="43" column="39" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28848" column="39" selection-start-line="28848" selection-start-column="39" selection-end-line="28848" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2563">
-          <caret line="52462" column="49" selection-start-line="52462" selection-start-column="49" selection-end-line="52462" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -539,20 +485,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_9_Frame_Update_监听动画帧.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="56545" column="28" selection-start-line="56545" selection-start-column="28" selection-end-line="56545" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="72444" column="4" selection-start-line="72444" selection-start-column="4" selection-end-line="72444" selection-end-column="4" />
+        <state relative-caret-position="139">
+          <caret line="71031" column="31" selection-start-line="71031" selection-start-column="27" selection-end-line="71031" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="78285" column="4" selection-start-line="78285" selection-start-column="4" selection-end-line="78285" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="288">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding>
             <element signature="e#1305#1313#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/lesson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="81" column="69" selection-start-line="81" selection-start-column="69" selection-end-line="81" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
         </state>
       </provider>
     </entry>

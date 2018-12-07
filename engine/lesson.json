@@ -1,0 +1,69 @@
+{
+  "id": "lesson_id",
+  "name": "课程",
+  "sources": [
+    {
+      "res_key": "res_url",
+      "type": "json|png|altas|audio|dragonbone",
+      "desc": "这个课程所需的所有资源，包括图片，json，audio"
+    }
+  ],
+  "scene": [
+    {
+      "id": "1",
+      "name": "sence_name",
+      "desc": "代表一个场景，每个场景有不同的布局，背景",
+      "type": "class|outdoor|pk",
+      "background": {
+        "res_key": "res_key",
+        "color": "#ffffff"
+      },
+      "layout": [
+        {
+          "key": "sprite_key",
+          "type": "sprite|group|student",
+          "desc": "最外层代表world,里面是子布局，可以是一个view，也可以是viewgroup",
+          "position": {
+            "x": 10,
+            "y": 10,
+            "anchor_x": 0.5,
+            "anchor_y": 0.5,
+            "width": "123|default",
+            "height": "123:default"
+          },
+          "child": [],
+          "init_animation": {
+            "type": "dragonbone|spritesheet|atlas|tween",
+            "key": "",
+            "desc": "初始执行的动画"
+          }
+        }
+      ],
+      "play_list": [
+        {
+          "id": "123",
+          "name": "tod jump",
+          "type": "dragonbone|frame|tween|audio",
+          "sprite_animation_list": [
+            {
+              "id": "123",
+              "sprite_key": "sprite_key",
+              "delay": 1000,
+              "desc": "元动画对象,对象只是一个元素的一个动画，如果需要一个元素多个动画叠加，需要写多个，而且可以定义是否自动播放",
+              "auto_start": true,
+              "animation": {
+                "type": "dragonbone|spritesheet|atlas|translate|alpha|scale|rotate",
+                "desc": "这个精灵的动画对象",
+                "parameters": {
+                  "frame_rate": 25,
+                  "from_x": 0,
+                  "to_x": 123
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
