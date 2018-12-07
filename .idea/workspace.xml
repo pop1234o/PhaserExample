@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/engine/lesson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/engine/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/engine/lesson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/engine/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/lesson.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/engine/example.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pickapple/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/pickapple/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,30 +65,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/engine/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-              <folding>
-                <element signature="e#1305#1313#0" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation_8_Dynamic_Animation_动态实现精灵表格.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
+      <file leaf-file-name="lesson.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/engine/lesson.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-729" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation_2_Change_Frame.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+            <state relative-caret-position="162">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -92,17 +86,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/pickapple/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="56545" column="28" selection-start-line="56545" selection-start-column="28" selection-end-line="56545" selection-end-column="28" />
+            <state relative-caret-position="190">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -110,8 +95,17 @@
       <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="135">
               <caret line="78285" column="4" selection-start-line="78285" selection-start-column="4" selection-end-line="78285" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_1_Events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="25" column="83" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -188,8 +182,12 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/basic.js" />
         <option value="$PROJECT_DIR$/example/pickapple/index.html" />
-        <option value="$PROJECT_DIR$/example/pickapple/main.js" />
         <option value="$PROJECT_DIR$/engine/lesson.json" />
+        <option value="$PROJECT_DIR$/engine/index.html" />
+        <option value="$PROJECT_DIR$/example/pickapple/main.js" />
+        <option value="$PROJECT_DIR$/engine/main.js" />
+        <option value="$PROJECT_DIR$/example/engine/lesson.json" />
+        <option value="$PROJECT_DIR$/example/engine/main.js" />
       </list>
     </option>
   </component>
@@ -222,12 +220,13 @@
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
@@ -265,15 +264,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStromPro\PhaserEx\example" />
       <recent name="$PROJECT_DIR$/example" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStromPro\PhaserEx\example\engine" />
+      <recent name="E:\WebStromPro\PhaserEx\engine" />
       <recent name="E:\WebStromPro\PhaserEx\example\libs" />
       <recent name="E:\WebStromPro\PhaserEx\example\assets\dragonbone" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="E:\WebStromPro\PhaserEx\example" />
-      <recent name="$PROJECT_DIR$/example" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,12 +312,12 @@
       <workItem from="1543203647610" duration="7559000" />
       <workItem from="1543232436845" duration="65162000" />
       <workItem from="1543737258283" duration="2968000" />
-      <workItem from="1544009759429" duration="13447000" />
+      <workItem from="1544009759429" duration="16925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115560000" />
+    <option name="totallyTimeSpent" value="119038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -330,7 +330,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5051814" side_tool="true" weight="0.17862481" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.098958336" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19097222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -448,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/assets/sprites/seacreatures_json.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -471,13 +464,6 @@
     <entry file="file://$PROJECT_DIR$/example/libs/dragonbones/dragonBones.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/pickapple/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/assets/sprites/seacreatures_json.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -493,44 +479,6 @@
     <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="56545" column="28" selection-start-line="56545" selection-start-column="28" selection-end-line="56545" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="71031" column="31" selection-start-line="71031" selection-start-column="27" selection-end-line="71031" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="78285" column="4" selection-start-line="78285" selection-start-column="4" selection-end-line="78285" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding>
-            <element signature="e#1305#1313#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/lesson.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/basic.js">
@@ -551,6 +499,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/engine/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="56545" column="28" selection-start-line="56545" selection-start-column="28" selection-end-line="56545" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/pickapple/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="71869" column="23" selection-start-line="71869" selection-start-column="9" selection-end-line="71869" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+          <folding>
+            <element signature="e#1305#1313#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="78285" column="4" selection-start-line="78285" selection-start-column="4" selection-end-line="78285" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="25" column="83" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/engine/example.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/engine/lesson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/engine/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
         </state>
       </provider>
     </entry>

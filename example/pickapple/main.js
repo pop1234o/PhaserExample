@@ -58,7 +58,7 @@ var states = {
         }
         function loadDragonbone(path) {
             game.load.image(path,path);
-            game.load.json();
+            // game.load.json();
         }
     },
     state_play: function () {
