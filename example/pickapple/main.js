@@ -22,7 +22,7 @@ var states = {
 
             game.load.audio("boss_hit", "../assets/audio/SoundEffects/boss_hit.wav");
 
-            loadDragonbone("../assets/dragonbone/",)
+            loadDragonbone("../assets/dragonbone/侧面女孩B")
 
             //region
 
@@ -57,7 +57,7 @@ var states = {
 
         }
         function loadDragonbone(path) {
-            game.load.image();
+            game.load.image(path,path);
             game.load.json();
         }
     },
