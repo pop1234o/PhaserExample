@@ -69,3 +69,17 @@ for...in循环出的是key，for...of循环出的是value
 for...of不能循环普通的对象，需要通过和Object.keys()搭配使用
 *
 * */
+
+/*
+js object就是map，底层引擎很多都是hashmap的实现，es5的key必须是字符串类型
+es6
+* var map = {};
+// add a item
+map[key1] = value1;
+// or remove it
+delete map[key1];
+// or determine whether a key exists
+key1 in map;
+*
+*
+* */

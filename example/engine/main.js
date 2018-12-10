@@ -20,20 +20,36 @@ var states = {
     state_preload_source: function () {
         this.preload = function () {
 
-            window.config = game.cache.getJSON("config");
-            var config = window.config;
-            var configElement = config["sources"];
+            // window.config = game.cache.getJSON("config");
+            window.config = window.lesson;
+            let config = window.config;
+            let configElement = config.sources;
             //==========加载资源==================================
-            for (let key in configElement) {//
-                let element = configElement[key];
-                var source_url = element["url"];
-                if (source_url.endsWith(".png")) {
-                    game.load.image(element["key"], source_url);
+            for (let element of configElement) {//
+                let source_url = element.url;
+                let key = element.key;
+                switch (element.type) {
+                    case "image":
+                        game.load.image(key, source_url);
+                        break;
+                    case "spritesheet":
+                        let frameWidth = element.parameters.spritesheet_width;
+                        let frameHeight = element.parameters.spritesheet_height;
+                        let frameMax = element.parameters.spritesheet_max_frame;
+                        game.load.spritesheet(key, source_url, frameWidth, frameHeight, frameMax, 0, 0, 0);
+                        break;
+                    case "atlas":
+                        game.load.atlas(key, element.parameters.atlas_url);
+                        break;
+                    case "audio":
+                        game.load.audio(key, source_url);
+                        break;
+
                 }
             }
 
             ///==================显示进度=============================
-            var phaserText = game.add.text(game.world.centerX, game.world.centerY, "0%", {
+            let phaserText = game.add.text(game.world.centerX, game.world.centerY, "0%", {
                 fontSize: '60px',
                 fill: "#0000ff"
             }, undefined);
@@ -44,7 +60,7 @@ var states = {
                 phaserText.text = progress + "%";
             }, this);
 
-            var onload = function () {
+            let onload = function () {
                 setTimeout(function () {
                     game.state.start("state_play");
                 }, 1000)
@@ -54,27 +70,57 @@ var states = {
         }
     }
     ,
-    state_play: function () {
+    state_play: function () {//构造函数，里面是类属性定义，方法定义
 
         this.create = function () {
-            var width_world = game.world.width;//world是一个最外层的group
-            var height_world = game.world.height;
-            var centerX = game.world.centerX;
-            var centerY = game.world.centerY;
+            let width_world = game.world.width;//world是一个最外层的group
+            let height_world = game.world.height;
+            let centerX = game.world.centerX;
+            let centerY = game.world.centerY;
 
+            //==============加载基础配置=================
             let config = window.config;
-            var scene = config["scene"];
-            var sceneElement = scene[0];
-            game.state.backgroundColor = sceneElement["background"]["color"];
-            var layout = sceneElement["layout"];
+            let scene = config.scene;
+            let sceneElement = scene[0];
+            game.stage.backgroundColor = sceneElement.background.color;
+            let layout = sceneElement.layout;
 
-            for (let element_layout in layout) {
-                let element = layout[element_layout];
-                var position = element["position"];
-                game.add.sprite(position["x"], position["y"], element["key"]);
+            //==============================加载布局==========
+            let spriteMap = {};
+            for (let layout_element of layout) {
+                let position = layout_element.position;
+                let x = position.x;
+                let y = position.y;
+                let key = layout_element.key;
+                let image_frame = undefined;
+                if (layout_element.hasOwnProperty("image_frame") && layout_element.image_frame !== "") {
+                    image_frame = layout_element.image_frame;
+                }
+                //============添加=================
+
+                switch (layout_element.type) {
+                    case "image":
+                        spriteMap[key] = game.add.image(x, y, key, image_frame, undefined);
+                        break;
+                    case "sprite":
+                        spriteMap[key] = game.add.sprite(x, y, key, image_frame, undefined);
+                        break;
+                    case "text":
+                        let parameters = layout_element.element_parameters;
+                        spriteMap[key] = game.add.text(x, y, parameters.text, parameters.text_style, undefined);
+                        break;
+                }
+                //=================初始动画===============
+                let type = layout_element.init_animation.type;
+                let animationParameters = layout_element.init_animation.init_animation_parameters;
+                switch (type) {
+                    case "spritesheet":
+                        let anim = spriteMap[key].animations.add(animationParameters.name, animationParameters.frames, animationParameters.frameRate, animationParameters.loop);
+                        anim.play();
+                        break;
+                }
 
             }
-
 
         }
     },

@@ -5,7 +5,8 @@
     {
       "key":"mummy",
       "url": "../assets/sprites/metalslug_mummy37x45.png",
-      "type": "png",
+      "type": "spritesheet",
+      "desc_type":"image|spritesheet|atlas|atlasJSONHash|audio",
       "desc": "这个课程所需的所有资源，包括图片，json，audio"
     }
   ],
