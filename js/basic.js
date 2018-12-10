@@ -83,3 +83,34 @@ key1 in map;
 *
 *
 * */
+
+
+let key = "key";
+//访问域
+let obj = {//创建一个对象，里面有方法和属性,不用var声名
+    name: "",
+    func: function () {
+        console.log(this.name);//访问这个对象的
+        // console.log(name); 错误的
+        console.log(key);
+    }
+};
+
+console.log(obj.name);
+obj.func();
+
+function ClassName() {//定义构造函数
+    this.name = "";//这个对象的属性
+    this.func = function () {
+        console.log(this.name);
+    };
+}
+
+ClassName.prototype = {
+    fatherFun: function () {
+
+    }
+};
+
+let className = new ClassName();
+className.fatherFun();
