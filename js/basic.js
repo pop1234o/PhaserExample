@@ -1,4 +1,3 @@
-
 /**
  * js数据类型
  * 值类型(基本类型)：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol。
@@ -41,11 +40,11 @@
  *
  *
  *
-* */
+ * */
 
 /**
  * 原因是加载了两次同样key的资源
-* Uncaught TypeError: Cannot read property 'compressionAlgorithm' of null
+ * Uncaught TypeError: Cannot read property 'compressionAlgorithm' of null
  at ./libs/phaser/pixi.js.PIXI.BaseTexture.updateTexture (pixi.js:7488)
  at ./libs/phaser/pixi.js.PIXI.WebGLRenderer.updateTexture (pixi.js:3821)
  at ./libs/phaser/pixi.js.PIXI.WebGLSpriteBatch.renderBatch (pixi.js:5356)
@@ -56,5 +55,17 @@
  at ./libs/phaser/phaser-split.js.Phaser.World../libs/phaser/pixi.js.PIXI.DisplayObjectContainer._renderWebGL (pixi.js:1420)
  at ./libs/phaser/phaser-split.js.Phaser.Stage../libs/phaser/pixi.js.PIXI.DisplayObjectContainer._renderWebGL (pixi.js:1420)
  at ./libs/phaser/pixi.js.PIXI.WebGLRenderer.renderDisplayObject (pixi.js:3769)
+ *
+ * */
+
+
+/*
+* 推荐在循环对象属性的时候，使用for...in,在遍历数组的时候的时候使用for...of。
+
+for...in循环出的是key，for...of循环出的是value
+
+注意，for...of是ES6新引入的特性。修复了ES5引入的for...in的不足
+
+for...of不能循环普通的对象，需要通过和Object.keys()搭配使用
 *
 * */

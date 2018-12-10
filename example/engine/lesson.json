@@ -4,7 +4,7 @@
   "sources": [
     {
       "key":"mummy",
-      "url": "assets/sprites/metalslug_mummy37x45.png",
+      "url": "../assets/sprites/metalslug_mummy37x45.png",
       "type": "png",
       "desc": "这个课程所需的所有资源，包括图片，json，audio"
     }
@@ -25,8 +25,8 @@
           "type": "sprite|group|student",
           "desc": "最外层代表world,里面是子布局，可以是一个view，也可以是viewgroup",
           "position": {
-            "x": 10,
-            "y": 10,
+            "x": 100,
+            "y": 100,
             "anchor_x": 0.5,
             "anchor_y": 0.5,
             "width": "123",
