@@ -110,7 +110,7 @@ var states = {
             //endregion
 
 
-            //region ==============================加载布局==========
+            //region ==============================加载布局元素==========
             let layout = sceneElement.layout;
             let spriteMap = {};
             for (let layout_element of layout) {
