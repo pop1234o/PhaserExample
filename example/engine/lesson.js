@@ -34,6 +34,14 @@ window.lesson = {
                     "desc_image_frame": "非必须{string|number} [frame] - If a Texture Atlas or Sprite Sheet is used this allows you to specify the frame to be used. Use either an integer for a Frame ID or a string for a frame name",
                     "desc_type": "sprite|group|student|image|text",
                     "desc": "最外层代表world,里面是子布局，可以是一个view，也可以是viewgroup",
+                    "properties": {
+                        "alpha": 0.5,
+                        "scale": {
+                            "x": 2,
+                            "y": 1
+                        },
+                        "rotation": 1
+                    },
                     "element_parameters": {
                         "text": "显示的文字",
                         "text_style": {
@@ -51,13 +59,41 @@ window.lesson = {
                     },
                     "child": [],
                     "init_animation": {
-                        "type": "spritesheet",
-                        "desc_type": "dragonbone|spritesheet|atlas|tween",
+                        "type": "spritesheet|tween|scale",
+                        "desc_type": "dragonbone|spritesheet|atlas|tween|scale",
                         "init_animation_parameters": {
-                            "name": "walk",
-                            "frames": [],
-                            "frameRate": 10,
-                            "loop": true
+                            "spritesheet_parameter": {
+                                "name": "walk",
+                                "frames": [],
+                                "frameRate": 10,
+                                "loop": true,
+                                "desc_spritesheet": "表格动画或者图集动画",
+                            }
+                            ,
+                            "tween_parameter": {
+                                "properties": {
+                                    "alpha": 1,
+                                    "y": 500,
+                                    "rotation": 0
+                                },
+                                "ease": "Linear",
+                                "duration": 2000,
+                                "delay": 1000,
+                                "repeat": 0,
+                                "yoyo": false
+                            },
+                            "scale_parameter": {
+                                "properties": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "ease": "Linear",
+                                "duration": 2000,
+                                "delay": 1000,
+                                "repeat": 0,
+                                "yoyo": false
+                            }
+
                         },
                         "desc": "初始执行的动画"
                     }

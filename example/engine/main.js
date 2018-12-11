@@ -110,14 +110,63 @@ var states = {
                         spriteMap[key] = game.add.text(x, y, parameters.text, parameters.text_style, undefined);
                         break;
                 }
+                //================元素属性=================
+                let spriteElement = spriteMap[key];
+                //不存在的元素类型
+                if (spriteElement === undefined || spriteElement === null) {
+                    continue;
+                }
+                if (layout_element.hasOwnProperty("properties")) {
+                    let properties = layout_element.properties;
+                    if (properties.hasOwnProperty("alpha")) {
+                        spriteElement.alpha = properties.alpha;
+                    }
+                    if (properties.hasOwnProperty("scale")) {
+                        spriteElement.scale.set(properties.scale.x, properties.scale.y);
+                    }
+                    if (properties.hasOwnProperty("rotation")) {
+                        spriteElement.rotation = properties.rotation;
+                    }
+                }
                 //=================初始动画===============
                 let type = layout_element.init_animation.type;
                 let animationParameters = layout_element.init_animation.init_animation_parameters;
-                switch (type) {
-                    case "spritesheet":
-                        let anim = spriteMap[key].animations.add(animationParameters.name, animationParameters.frames, animationParameters.frameRate, animationParameters.loop);
-                        anim.play();
-                        break;
+                let types = type.split("|");
+                for (let anim_type of types) {
+                    switch (anim_type) {
+                        case "spritesheet":
+                            let parameter = animationParameters.spritesheet_parameter;
+                            let anim = spriteElement.animations.add(parameter.name, parameter.frames, parameter.frameRate, parameter.loop);
+                            anim.play();
+                            break;
+                        case "tween":
+                            let tweenParameter = animationParameters.tween_parameter;
+                            let tween = game.add.tween(spriteElement).to(
+                                tweenParameter.properties,
+                                tweenParameter.duration,
+                                tweenParameter.ease,
+                                false,
+                                tweenParameter.delay,
+                                tweenParameter.repeat,
+                                tweenParameter.yoyo
+                            );
+                            tween.start();
+
+                            break;
+                        case "scale":
+                            let scale_parameter = animationParameters.scale_parameter;
+                            let tween_scale = game.add.tween(spriteElement.scale).to(
+                                scale_parameter.properties,
+                                scale_parameter.duration,
+                                scale_parameter.ease,
+                                false,
+                                scale_parameter.delay,
+                                scale_parameter.repeat,
+                                scale_parameter.yoyo
+                            );
+                            tween_scale.start();
+                            break;
+                    }
                 }
 
             }
