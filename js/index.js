@@ -97,3 +97,24 @@ Car1.prototype = {
 var car1 = new Car1(1);//car1这个对象的原型指向Car函数对象的原型
 
 document.write("====="+car1.wheel);
+
+
+/*
+*
+* 数组也是map
+* {
+* "0":1
+* "2":'adf'
+* }
+*
+* */
+
+var pos=[];
+pos.push("");
+pos.push(1);
+pos.push(true);
+
+/*
+*
+* var style = { font: "48px Arial", fill: "#ff0044", align: "center" }
+* */

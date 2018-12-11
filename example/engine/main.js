@@ -82,10 +82,26 @@ var states = {
             let config = window.config;
             let scene = config.scene;
             let sceneElement = scene[0];
-            game.stage.backgroundColor = sceneElement.background.color;
-            let layout = sceneElement.layout;
+
+            //==============加载背景================
+            let bg_types = sceneElement.background.type.split("|");
+            for (let bg_type of bg_types) {
+                switch (bg_type) {
+                    case "color":
+                        game.stage.backgroundColor = sceneElement.background.color;
+                        break;
+                    case "image":
+                        game.add.image(0, 0, sceneElement.background.res_key);
+                        break;
+                    case "tile_sprite":
+                        game.add.tileSprite(0, 0, width_world, height_world, sceneElement.background.res_key);
+                        break;
+                }
+            }
+
 
             //==============================加载布局==========
+            let layout = sceneElement.layout;
             let spriteMap = {};
             for (let layout_element of layout) {
                 let position = layout_element.position;
@@ -109,6 +125,9 @@ var states = {
                         let parameters = layout_element.element_parameters;
                         spriteMap[key] = game.add.text(x, y, parameters.text, parameters.text_style, undefined);
                         break;
+                    case "button":
+                        // spriteMap[key] =  game.add.button();
+                        break;
                 }
                 //================元素属性=================
                 let spriteElement = spriteMap[key];
@@ -126,6 +145,9 @@ var states = {
                     }
                     if (properties.hasOwnProperty("rotation")) {
                         spriteElement.rotation = properties.rotation;
+                    }
+                    if (properties.hasOwnProperty("angle")) {
+                        spriteElement.angle = properties.angle;
                     }
                 }
                 //=================初始动画===============

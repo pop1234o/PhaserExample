@@ -23,6 +23,8 @@ window.lesson = {
             "desc": "代表一个场景，每个场景有不同的布局，背景",
             "type": "class|outdoor|pk",
             "background": {
+                "type": "",
+                "desc_type": "color|image|tile_sprite",
                 "res_key": "res_key",
                 "color": "#000000"
             },
@@ -32,7 +34,7 @@ window.lesson = {
                     "type": "sprite",
                     "image_frame": "",
                     "desc_image_frame": "非必须{string|number} [frame] - If a Texture Atlas or Sprite Sheet is used this allows you to specify the frame to be used. Use either an integer for a Frame ID or a string for a frame name",
-                    "desc_type": "sprite|group|student|image|text",
+                    "desc_type": "sprite|group|image|text|button|student",
                     "desc": "最外层代表world,里面是子布局，可以是一个view，也可以是viewgroup",
                     "properties": {
                         "alpha": 0.5,
@@ -40,14 +42,15 @@ window.lesson = {
                             "x": 2,
                             "y": 1
                         },
-                        "rotation": 1
+                        "angle": 0,
+                        "rotation": 0
                     },
                     "element_parameters": {
                         "text": "显示的文字",
                         "text_style": {
                             "fontSize": '60px',
                             "fill": "#0000ff"
-                        }
+                        },
                     },
                     "position": {
                         "x": 100,
@@ -74,9 +77,9 @@ window.lesson = {
                                 "properties": {
                                     "alpha": 1,
                                     "y": 500,
-                                    "rotation": 0
+                                    "angle": 360
                                 },
-                                "ease": "Linear",
+                                "ease": "Back",
                                 "duration": 2000,
                                 "delay": 1000,
                                 "repeat": 0,
