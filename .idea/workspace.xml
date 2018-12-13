@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/Screen_1_适配.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/Debug_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Animation_1_Events.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/Animation_1_Events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,42 +65,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/engine/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-              <folding>
-                <element signature="e#3137#3180#0" />
-                <element signature="e#3361#6380#0" />
-                <element signature="e#4474#4513#0" />
-                <element signature="e#5338#5386#0" />
-                <element signature="e#9301#9325#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-509">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/engine/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="29857" column="12" lean-forward="true" selection-start-line="29857" selection-start-column="12" selection-end-line="29857" selection-end-column="12" />
+            <state relative-caret-position="2214">
+              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -108,8 +74,8 @@
       <file leaf-file-name="pixi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/libs/pixi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="1727" column="7" lean-forward="true" selection-start-line="1727" selection-start-column="7" selection-end-line="1727" selection-end-column="7" />
+            <state relative-caret-position="45900">
+              <caret line="1727" column="7" selection-start-line="1727" selection-start-column="7" selection-end-line="1727" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -117,7 +83,7 @@
       <file leaf-file-name="ex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/engine/ex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="2781">
               <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
             </state>
           </provider>
@@ -126,17 +92,8 @@
       <file leaf-file-name="lib.es5.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1839">
-              <caret line="87754" column="1" lean-forward="true" selection-start-line="87754" selection-start-column="1" selection-end-line="87754" selection-end-column="1" />
+            <state relative-caret-position="4779">
+              <caret line="190" selection-start-line="190" selection-end-line="190" />
             </state>
           </provider>
         </entry>
@@ -144,17 +101,45 @@
       <file leaf-file-name="Animation_1_Events.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="1269">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Screen_1_适配.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Screen_1_适配.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Screen_1_适配.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="594">
               <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Debug_1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Debug_1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nokia16black.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/assets/fonts/bitmapFonts/nokia16black.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Filters_3_Seascape.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Filters_3_Seascape.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Groups_1_Align Frames To Grid.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -240,7 +225,6 @@
         <option value="$PROJECT_DIR$/example/Filters_2_Spiral_Galaxy.html" />
         <option value="$PROJECT_DIR$/example/Display_1_Viewport_获取宽高信息.html" />
         <option value="$PROJECT_DIR$/example/Filters_3_Seascape.html" />
-        <option value="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" />
         <option value="$PROJECT_DIR$/js/index.html" />
         <option value="$PROJECT_DIR$/example/pickapple/index.html" />
         <option value="$PROJECT_DIR$/engine/lesson.json" />
@@ -256,6 +240,8 @@
         <option value="$PROJECT_DIR$/example/engine/main.js" />
         <option value="$PROJECT_DIR$/example/Animation_1_Events.html" />
         <option value="$PROJECT_DIR$/example/Screen_1_适配.html" />
+        <option value="$PROJECT_DIR$/example/Debug_1.html" />
+        <option value="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" />
       </list>
     </option>
   </component>
@@ -298,6 +284,13 @@
             <path>
               <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PhaserEx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhaserEx" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,7 +307,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="arcade-joystick&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/virtualjoystick/skins/arcade-joystick.png&#10;snake&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/snake.png&#10;manga-girl&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/manga-girl.png&#10;button_sprite_sheet&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/buttons/button_sprite_sheet.png&#10;cavern1&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/skies/cavern1.png&#10;starfield&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/misc/starfield.jpg&#10;phaser.png&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/tween/phaser.png&#10;shadow&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/tween/shadow.png&#10;seacreatures_json&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/seacreatures_json.png&#10;thorn_lazur&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/thorn_lazur.png&#10;running_bot&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/running_bot.json&#10;bl&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/sliding-puzzle/bl.jpg&#10;background2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/starstruck/background2.png&#10;explode&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/atoms/explode.png&#10;player&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/player.png&#10;invader32x32x4&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/invaders/invader32x32x4.png&#10;enemy-bullet&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/enemy-bullet.png&#10;bullet&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/invaders/bullet.png&#10;bacteria&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/shaders/bacteria.frag&#10;hotdog&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/hotdog.png&#10;chunk&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/chunk.png&#10;phaser-ship&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/phaser-ship.png&#10;cybernoid&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/cybernoid.png&#10;devilstar_demo_download_disk&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/devilstar_demo_download_disk.png&#10;block&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/block.png&#10;star&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/star.png&#10;checker-floor&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/checker-floor.png&#10;pink-raster&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/pink-raster.png&#10;atari&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/atari.png&#10;ufo&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/ufo.png&#10;remember-me&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/remember-me.jpg&#10;debug-grid-1920x1920&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/debug-grid-1920x1920.png&#10;collision_test&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/maps/collision_test.json&#10;thrust_ship2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/thrust_ship2.png&#10;tiles2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/tiles2.png&#10;walls_1x2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/walls_1x2.png&#10;ground_1x1&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/ground_1x1.png&#10;humstar&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/humstar.png&#10;platform&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/platform.png&#10;chain&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/chain.png&#10;shinyball&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/shinyball.png&#10;ships&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/ships.png&#10;jim_sachs_time_crystal&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/jim_sachs_time_crystal.png&#10;jets&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/jets.png&#10;desyrel&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/fonts/bitmapFonts/desyrel.png&#10;glass&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/particles/glass.png&#10;swirl1&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/swirl1.jpg&#10;fruitnveg32wh37&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/fruitnveg32wh37.png&#10;atari130xe&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/atari130xe.png&#10;bullets&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/asteroids/bullets.png" />
+    <property name="SearchEverywhereHistoryKey" value="nokia16black&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/fonts/bitmapFonts/nokia16black.png&#10;flixel-button&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/buttons/flixel-button.png&#10;arcade-joystick&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/virtualjoystick/skins/arcade-joystick.png&#10;snake&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/snake.png&#10;manga-girl&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/manga-girl.png&#10;button_sprite_sheet&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/buttons/button_sprite_sheet.png&#10;cavern1&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/skies/cavern1.png&#10;starfield&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/misc/starfield.jpg&#10;phaser.png&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/tween/phaser.png&#10;shadow&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/tween/shadow.png&#10;seacreatures_json&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/seacreatures_json.png&#10;thorn_lazur&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/thorn_lazur.png&#10;running_bot&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/running_bot.json&#10;bl&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/sliding-puzzle/bl.jpg&#10;background2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/starstruck/background2.png&#10;explode&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/atoms/explode.png&#10;player&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/player.png&#10;invader32x32x4&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/invaders/invader32x32x4.png&#10;enemy-bullet&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/enemy-bullet.png&#10;bullet&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/games/invaders/bullet.png&#10;bacteria&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/shaders/bacteria.frag&#10;hotdog&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/hotdog.png&#10;chunk&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/chunk.png&#10;phaser-ship&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/phaser-ship.png&#10;cybernoid&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/cybernoid.png&#10;devilstar_demo_download_disk&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/devilstar_demo_download_disk.png&#10;block&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/block.png&#10;star&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/star.png&#10;checker-floor&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/checker-floor.png&#10;pink-raster&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/pink-raster.png&#10;atari&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/demoscene/atari.png&#10;ufo&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/ufo.png&#10;remember-me&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/remember-me.jpg&#10;debug-grid-1920x1920&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/debug-grid-1920x1920.png&#10;collision_test&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/maps/collision_test.json&#10;thrust_ship2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/thrust_ship2.png&#10;tiles2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/tiles2.png&#10;walls_1x2&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/walls_1x2.png&#10;ground_1x1&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tilemaps/tiles/ground_1x1.png&#10;humstar&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/humstar.png&#10;platform&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/platform.png&#10;chain&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/chain.png&#10;shinyball&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/shinyball.png&#10;ships&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/tests/ships.png&#10;jim_sachs_time_crystal&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/jim_sachs_time_crystal.png&#10;jets&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/jets.png&#10;desyrel&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/fonts/bitmapFonts/desyrel.png&#10;glass&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/particles/glass.png&#10;swirl1&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/pics/swirl1.jpg&#10;fruitnveg32wh37&#9;FILE&#9;file://E:/WebStromPro/PhaserEx/example/assets/sprites/fruitnveg32wh37.png" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -383,22 +376,22 @@
       <workItem from="1543737258283" duration="2968000" />
       <workItem from="1544009759429" duration="18555000" />
       <workItem from="1544409249278" duration="34089000" />
-      <workItem from="1544498260419" duration="34524000" />
+      <workItem from="1544498260419" duration="36342000" />
+      <workItem from="1544667895156" duration="4103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189281000" />
+    <option name="totallyTimeSpent" value="195202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.25317124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.25264272" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5051814" side_tool="true" weight="0.17862481" />
@@ -411,24 +404,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3330844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298791" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -444,15 +438,38 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/engine/lesson.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1917">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-          <folding>
-            <element signature="e#937#4114#0" />
-            <element signature="e#4779#6215#0" />
-            <element signature="e#6637#8219#0" />
-          </folding>
+        <state relative-caret-position="5130">
+          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2369358">
+          <caret line="87754" column="1" lean-forward="true" selection-start-line="87754" selection-start-column="1" selection-end-line="87754" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Screen_1_适配.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Debug_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -474,13 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#3137#3180#0" />
-            <element signature="e#3361#6380#0" />
-            <element signature="e#4474#4513#0" />
-            <element signature="e#5338#5386#0" />
-            <element signature="e#9301#9325#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
           <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
-          <folding>
-            <element signature="e#1305#1313#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,15 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/games/tanks/shadow.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/tests/tween/shadow.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/tests/tween/phaser.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/libs/phaser-creature.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -660,30 +658,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/misc/starfield.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/skies/cavern1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="118" column="70" lean-forward="true" selection-start-line="118" selection-start-column="70" selection-end-line="118" selection-end-column="70" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/buttons/button_sprite_sheet.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/pics/manga-girl.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/sprites/snake.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/assets/virtualjoystick/skins/arcade-joystick.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/other/person.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -699,11 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="58" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="58" />
-          <folding>
-            <element signature="e#937#4114#0" />
-            <element signature="e#4779#6215#0" />
-            <element signature="e#6637#8219#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,35 +691,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/pickapple/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-509">
+        <state relative-caret-position="594">
           <caret line="22" column="16" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="29857" column="12" lean-forward="true" selection-start-line="29857" selection-start-column="12" selection-end-line="29857" selection-end-column="12" />
+        <state relative-caret-position="805410">
+          <caret line="29857" column="12" selection-start-line="29857" selection-start-column="12" selection-end-line="29857" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        <state relative-caret-position="4779">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/libs/pixi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="1727" column="7" lean-forward="true" selection-start-line="1727" selection-start-column="7" selection-end-line="1727" selection-end-column="7" />
+        <state relative-caret-position="45900">
+          <caret line="1727" column="7" selection-start-line="1727" selection-start-column="7" selection-end-line="1727" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/engine/ex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="2781">
           <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
         </state>
       </provider>
@@ -758,36 +733,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/engine/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-          <folding>
-            <element signature="e#3137#3180#0" />
-            <element signature="e#3361#6380#0" />
-            <element signature="e#4474#4513#0" />
-            <element signature="e#5338#5386#0" />
-            <element signature="e#9301#9325#0" />
-          </folding>
+        <state relative-caret-position="2214">
+          <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1839">
-          <caret line="87754" column="1" lean-forward="true" selection-start-line="87754" selection-start-column="1" selection-end-line="87754" selection-end-column="1" />
+        <state relative-caret-position="2368629">
+          <caret line="87754" column="1" selection-start-line="87754" selection-start-column="1" selection-end-line="87754" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="1269">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Screen_1_适配.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="594">
           <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/buttons/flixel-button.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Debug_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/fonts/bitmapFonts/nokia16black.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Filters_3_Seascape.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
         </state>
       </provider>
     </entry>
