@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/Debug_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/basic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,15 +87,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.es5.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4779">
-              <caret line="190" selection-start-line="190" selection-end-line="190" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Animation_1_Events.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,11 +124,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Groups_1_Align Frames To Grid.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Groups_1_Align Frames To Grid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="461">
               <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/basic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -232,7 +230,6 @@
         <option value="$PROJECT_DIR$/example/pickapple/main.js" />
         <option value="$PROJECT_DIR$/engine/main.js" />
         <option value="$PROJECT_DIR$/example/engine/lesson.json" />
-        <option value="$PROJECT_DIR$/js/basic.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/example/engine/ex.js" />
         <option value="$PROJECT_DIR$/example/engine/index.html" />
@@ -242,6 +239,7 @@
         <option value="$PROJECT_DIR$/example/Screen_1_适配.html" />
         <option value="$PROJECT_DIR$/example/Debug_1.html" />
         <option value="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" />
+        <option value="$PROJECT_DIR$/js/basic.js" />
       </list>
     </option>
   </component>
@@ -377,12 +375,12 @@
       <workItem from="1544009759429" duration="18555000" />
       <workItem from="1544409249278" duration="34089000" />
       <workItem from="1544498260419" duration="36342000" />
-      <workItem from="1544667895156" duration="4103000" />
+      <workItem from="1544667895156" duration="4743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195202000" />
+    <option name="totallyTimeSpent" value="195842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -630,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/basic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -779,6 +770,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/basic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
         </state>
       </provider>
     </entry>

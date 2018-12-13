@@ -114,3 +114,16 @@ ClassName.prototype = {
 
 let className = new ClassName();
 className.fatherFun();
+
+
+
+
+
+/*
+* js遍历对象
+* for in 或者 Object.keys(obj)返回一个数组
+* 遍历数组
+* arr.forEach(function(val,index){})
+* for in 用arr[key]
+* 或者直接for of
+* */
