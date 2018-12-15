@@ -197,3 +197,8 @@ Function.prototype.bind = function (ctx) {
 *
 *
 * */
+
+/*
+* 设计模式
+*
+* */
