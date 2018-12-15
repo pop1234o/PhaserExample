@@ -1,0 +1,20 @@
+{
+  "name": "pop_util",
+  "version": "1.0.0",
+  "description": "is_good",
+  "main": "../index.js",
+  "repository":"https://github.com/pop1234o/PhaserExample.git",
+  "directories": {
+    "../example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.27.1"
+    "webpack-cli": "^3.1.2"
+  },
+}
