@@ -24,6 +24,11 @@
         // log(Foo);//打印的是函数的字符串
 
         let foo = new Foo();
+        foo.constructor===foo.__proto__.constructor;
+        Foo.prototype.aaa="fa";
+        let b = foo.__proto__===Foo.prototype;//true
+        debugger
+
         // log(foo.toLocaleString());//[object Object]
         //
         // log(JSON.stringify(foo));//{"bar":"aaaa"}
@@ -31,13 +36,22 @@
         // log(JSON.stringify(Foo));//undefined
 
 
-        log(JSON.stringify(foo.__proto__));//{}
+        // log(JSON.stringify(foo.__proto__));//{}
 
-        foo.__proto__.prop = "bbb";
-        for (let key in foo) {
-            debugger
-            console.log(key, foo[key]);
-        }
+        // foo.__proto__.prop = "bbb";
+        // for (let key in foo) {
+        //     debugger
+        //     console.log(key, foo[key]);
+        // }
+
+        // let object = new Object();
+        // object.aa=function(){
+        //     return 5;
+        // };
+        // object["vv"]=6;
+        // debugger
+        // log(object);
+
 
 
     </script>

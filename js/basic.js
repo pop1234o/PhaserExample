@@ -116,9 +116,6 @@ let className = new ClassName();
 className.fatherFun();
 
 
-
-
-
 /*
 * js遍历对象
 * for in 或者 Object.keys(obj)返回一个数组
@@ -129,7 +126,6 @@ className.fatherFun();
 * */
 
 
-
 /*
 * apply call bind方法
 * 都是为了改变上下文
@@ -137,13 +133,12 @@ className.fatherFun();
 *
 * */
 
-Function.prototype.bind = function(ctx) {
+Function.prototype.bind = function (ctx) {
     var fn = this;
-    return function() {
+    return function () {
         fn.apply(ctx, arguments);
     };
 };
-
 
 
 /*
@@ -168,6 +163,37 @@ Function.prototype.bind = function(ctx) {
 *=======================
 * foo.hasOwnProperty(key)
 * 只包含自己的
+*============================
+* http://www.w3school.com.cn/js/pro_js_object_defining.asp
+* new 省去了new Object()和return 的过程
+* this指向的其实就是 新创建的对象
+* 使用 new 运算符构造函数时，在执行第一行代码前先创建一个对象，只有用 this 才能访问该对象。然后可以直接赋予 this 属性，
+* 默认情况下是构造函数的返回值（不必明确使用 return 运算符）。
+*========================
+* Foo 函数名是 function对象，他不是object对象
+* object对象是{key:value}  函数对象是特殊的对象，他不是key-value形式的
+* foo.__proto__ === Foo.prototype
+* 两个都是指向的是一个object  ，里面是{constructor:指向函数对象，这个函数就是构造函数对象,__proto__;{...}}
+*=======================
+* 函数对象中的prototype属性指向的object和所有实例化的对象的 __proto__指向的是一个对象
+*
+*
+*
+* */
+
+
+/*
+* =============es创建对象=============
+* http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html
+*
+* js 对象的属性和key是两个概念
+*
+* */
+
+/*
+* ==========es继承===========
+* http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html
+*
 *
 *
 * */
