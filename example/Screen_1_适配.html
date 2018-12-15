@@ -15,8 +15,16 @@
         //  Although it will work fine with this tutorial, it's almost certainly not the most current version.
         //  Be sure to replace it with an updated version before you start experimenting with adding your own code.
 
-        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', {preload: preload, create: create,update: update});
+        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', {preload: preload, create: create,update: update,init:init});
 
+        function init() {
+            game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+            game.scale.pageAlignHorizontally = true;//水平居中
+            game.scale.pageAlignVertically = true;//垂直居中
+            //一般我们找个基准分辨率开发，Phaser.Game设置为基准分辨率
+            //然后我们在第一个启动的state中加入上面代码，表示适配宽，（相对于父容器来说）
+            //如果父容器没有设置宽高，那么就是屏幕的宽度
+        }
         function preload() {
 
             game.load.image('lazur', 'assets/pics/thorn_lazur.png');

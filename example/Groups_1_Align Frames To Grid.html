@@ -31,12 +31,17 @@
 
         function preload() {
             game.load.atlas('seacreatures', 'assets/sprites/seacreatures_json.png', 'assets/sprites/seacreatures_json.json');
+            //加载字体
+            game.load.bitmapFont('nokia', 'assets/fonts/bitmapFonts/nokia16black.png', 'assets/fonts/bitmapFonts/nokia16black.xml');
         }
         function create() {
 
             //  From http://glslsandbox.com/e#20461.1
 
-            game.add.sprite()
+            // game.add.sprite()
+
+            var text = game.add.bitmapText(x, y + 7, 'nokia', "asdfadsf",16);
+            // text.x += (button.width / 2) - (text.textWidth / 2);
         }
 
         function update() {
