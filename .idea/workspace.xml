@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5848b119-03ba-4823-ad0d-28766b275a2c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/Basics_2_Click On An Image_精灵点击.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/Basics_2_Click On An Image_精灵点击.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,63 +63,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/engine/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2214">
-              <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pixi.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/libs/pixi.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45900">
-              <caret line="1727" column="7" selection-start-line="1727" selection-start-column="7" selection-end-line="1727" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/engine/ex.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2781">
-              <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animation_1_Events.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Screen_1_适配.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Screen_1_适配.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Debug_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/Debug_1.html">
+      <file leaf-file-name="basic.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/basic.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nokia16black.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/assets/fonts/bitmapFonts/nokia16black.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Filters_3_Seascape.html" pinned="false" current-in-tab="false">
@@ -127,17 +89,53 @@
       <file leaf-file-name="Groups_1_Align Frames To Grid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+            <state relative-caret-position="2">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/basic.js">
+      <file leaf-file-name="lib.es5.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+            <state relative-caret-position="203">
+              <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2824">
+              <caret line="49892" column="41" lean-forward="true" selection-start-line="49892" selection-start-column="41" selection-end-line="49892" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_3_Change_Texture_On_Click.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_3_Change_Texture_On_Click.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animation_2_Change_Frame.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Basics_2_Click On An Image_精灵点击.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/Basics_2_Click On An Image_精灵点击.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -180,6 +178,9 @@
       <find>Back</find>
       <find>_width</find>
       <find>_cacheMap</find>
+      <find>Phaser.Component.Core</find>
+      <find>inputE</find>
+      <find>点击</find>
     </findStrings>
     <replaceStrings>
       <replace>Linear</replace>
@@ -195,7 +196,6 @@
         <option value="$PROJECT_DIR$/animation/Animation_Events.html" />
         <option value="$PROJECT_DIR$/example/Animation_Events.html" />
         <option value="$PROJECT_DIR$/example/Animation_1_Change_Frame.html" />
-        <option value="$PROJECT_DIR$/example/Animation_2_Change_Frame.html" />
         <option value="$PROJECT_DIR$/example/Animation_2_Change_Texture_On_Click.html" />
         <option value="$PROJECT_DIR$/example/Animation_4_Creature_Dragon.html" />
         <option value="$PROJECT_DIR$/example/Animation_6_Creature Phoenix.html" />
@@ -214,7 +214,6 @@
         <option value="$PROJECT_DIR$/example/Animation_5_Creature_Dragon_Multiple.html" />
         <option value="$PROJECT_DIR$/example/Arcade_6_Asteroids Movement_精灵移动.html" />
         <option value="$PROJECT_DIR$/example/Arcade_6_Body Debug_重力系统.html" />
-        <option value="$PROJECT_DIR$/example/Basics_2_Click On An Image_精灵点击.html" />
         <option value="$PROJECT_DIR$/example/Basics_3_Move An Image_给精灵速度.html" />
         <option value="$PROJECT_DIR$/example/Basics_7_Tween An Image_精灵的补间动画.html" />
         <option value="$PROJECT_DIR$/example/Create_2_Generate Sprite_代码生成图片.html" />
@@ -223,7 +222,6 @@
         <option value="$PROJECT_DIR$/example/Filters_2_Spiral_Galaxy.html" />
         <option value="$PROJECT_DIR$/example/Display_1_Viewport_获取宽高信息.html" />
         <option value="$PROJECT_DIR$/example/Filters_3_Seascape.html" />
-        <option value="$PROJECT_DIR$/js/index.html" />
         <option value="$PROJECT_DIR$/example/pickapple/index.html" />
         <option value="$PROJECT_DIR$/engine/lesson.json" />
         <option value="$PROJECT_DIR$/engine/index.html" />
@@ -239,7 +237,10 @@
         <option value="$PROJECT_DIR$/example/Screen_1_适配.html" />
         <option value="$PROJECT_DIR$/example/Debug_1.html" />
         <option value="$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html" />
+        <option value="$PROJECT_DIR$/example/Animation_2_Change_Frame.html" />
+        <option value="$PROJECT_DIR$/example/Basics_2_Click On An Image_精灵点击.html" />
         <option value="$PROJECT_DIR$/js/basic.js" />
+        <option value="$PROJECT_DIR$/js/index.html" />
       </list>
     </option>
   </component>
@@ -250,10 +251,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -342,15 +342,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Animation_1_Events.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Animation_1_Events.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PhaserEx/example/Animation_1_Events.html" />
     <configuration name="Display_1_Viewport_获取宽高信息.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PhaserEx/example/Display_1_Viewport_获取宽高信息.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PhaserEx/js/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.Display_1_Viewport_获取宽高信息.html" />
       <item itemvalue="JavaScript Debug.Animation_1_Events.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.Animation_1_Events.html" />
         <item itemvalue="JavaScript Debug.Display_1_Viewport_获取宽高信息.html" />
       </list>
@@ -375,25 +378,26 @@
       <workItem from="1544009759429" duration="18555000" />
       <workItem from="1544409249278" duration="34089000" />
       <workItem from="1544498260419" duration="36342000" />
-      <workItem from="1544667895156" duration="4743000" />
+      <workItem from="1544667895156" duration="14951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195842000" />
+    <option name="totallyTimeSpent" value="206050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.25264272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.35724962" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5051814" side_tool="true" weight="0.17862481" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21058558" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.171875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -402,7 +406,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,20 +439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5130">
-          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2369358">
-          <caret line="87754" column="1" lean-forward="true" selection-start-line="87754" selection-start-column="1" selection-end-line="87754" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/Animation_1_Events.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1269">
@@ -548,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/Animation_18_Two Frame Test_监听键盘操控.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -605,13 +587,6 @@
     <entry file="file://$PROJECT_DIR$/example/Animation_8_Dynamic_Animation_动态实现精灵表格.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/pickapple/index.html">
@@ -687,27 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805410">
-          <caret line="29857" column="12" selection-start-line="29857" selection-start-column="12" selection-end-line="29857" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4779">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/libs/pixi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45900">
-          <caret line="1727" column="7" selection-start-line="1727" selection-start-column="7" selection-end-line="1727" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/engine/ex.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2781">
@@ -715,24 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="71382" column="30" lean-forward="true" selection-start-line="71382" selection-start-column="30" selection-end-line="71382" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/engine/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2214">
           <caret line="82" column="39" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2368629">
-          <caret line="87754" column="1" selection-start-line="87754" selection-start-column="1" selection-end-line="87754" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -763,20 +703,83 @@
     <entry file="file://$PROJECT_DIR$/example/assets/fonts/bitmapFonts/nokia16black.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_phaser_2.5.0_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="47710" column="56" selection-start-line="47710" selection-start-column="43" selection-end-line="47710" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2824">
+          <caret line="49892" column="41" lean-forward="true" selection-start-line="49892" selection-start-column="41" selection-end-line="49892" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_2_Change_Frame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Animation_3_Change_Texture_On_Click.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/Basics_2_Click On An Image_精灵点击.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/libs/pixi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1347">
+          <caret line="1653" column="30" selection-start-line="1653" selection-start-column="30" selection-end-line="1653" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_phaser-ce@2.11.1_build_custom_phaser-creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29857" column="12" lean-forward="true" selection-start-line="29857" selection-start-column="12" selection-end-line="29857" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/Filters_3_Seascape.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/Groups_1_Align Frames To Grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+        <state relative-caret-position="2">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/basic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+        <state relative-caret-position="344">
+          <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>

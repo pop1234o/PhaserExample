@@ -3,17 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="index.js"> </script>
+    <!--<script src="index.js"> </script>-->
 
 
     <script>
-        // var num = myNameSpace.getNum();
+
+        function log(obj) {
+            console.log("打印：" + obj);
+        }
+
+        // Object.prototype.log = function () {
+        //     console.log("打印：" + this);
+        // };
+
+
+        function Foo() {
+            this.bar = "aaaa";
+        }
+
+        // log(Foo);//打印的是函数的字符串
+
+        let foo = new Foo();
+        // log(foo.toLocaleString());//[object Object]
         //
-        // let space1 = new myNameSpace1();
-        // let num1 = space1.getNum();
+        // log(JSON.stringify(foo));//{"bar":"aaaa"}
         //
-        // document.write("aa111"+num)
-        // document.write("aa222"+num1)
+        // log(JSON.stringify(Foo));//undefined
+
+
+        log(JSON.stringify(foo.__proto__));//{}
+
+        foo.__proto__.prop = "bbb";
+        for (let key in foo) {
+            debugger
+            console.log(key, foo[key]);
+        }
+
 
     </script>
 </head>

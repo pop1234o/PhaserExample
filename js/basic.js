@@ -123,7 +123,51 @@ className.fatherFun();
 * js遍历对象
 * for in 或者 Object.keys(obj)返回一个数组
 * 遍历数组
-* arr.forEach(function(val,index){})
+* arr.forEach(function(val,index,array){})
 * for in 用arr[key]
 * 或者直接for of
+* */
+
+
+
+/*
+* apply call bind方法
+* 都是为了改变上下文
+*
+*
+* */
+
+Function.prototype.bind = function(ctx) {
+    var fn = this;
+    return function() {
+        fn.apply(ctx, arguments);
+    };
+};
+
+
+
+/*
+* =============new 关键字==================
+* JSON (JavaScript Object Notation) is a lightweight data-interchange format.
+* It is easy for humans to read and write. It is easy for machines to parse and generate.
+* -----------------
+* js new出来的对象就是json对象
+* -----------
+* debugger相当于断点
+*
+* {
+* "xxx":"xxx",
+* "__prototype__":{
+*    "constructor":构造函数对象,
+*    "__prototype__":{Object对象}
+*  }
+* }
+*===============================
+* obj.key = 123;
+* 相当于 obj["key"] 这个.key代表字符串
+*=======================
+* foo.hasOwnProperty(key)
+* 只包含自己的
+*
+*
 * */
