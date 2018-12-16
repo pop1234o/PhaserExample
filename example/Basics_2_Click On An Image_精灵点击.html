@@ -47,14 +47,19 @@
             var sprite = game.add.sprite(0, 0, 'einstein');
 
 
-            var text = game.add.text(0, 0, "text",{fill:"red"});
+            var text = game.add.text(0, 0, "text", {fill: "red"});
             var count = 0
             //允许点击，这个必须加
-            sprite.inputEnabled=true
+            sprite.inputEnabled = true
             sprite.events.onInputDown.add(function () {
 
                 text.text = "点击" + (count++)
             }, this)
+
+            //全局点击
+            game.input.onDown.add(function () {
+
+            }, this);
 
         }
 

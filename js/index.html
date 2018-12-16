@@ -23,12 +23,19 @@
 
         // log(Foo);//打印的是函数的字符串
 
-        let foo = new Foo();
-        foo.constructor===foo.__proto__.constructor;
-        Foo.prototype.aaa="fa";
-        let b = foo.__proto__===Foo.prototype;//true
-        debugger
+        // let foo = new Foo();
+        // foo.constructor===foo.__proto__.constructor;
+        // Foo.prototype.aaa="fa";
+        // let b = foo.__proto__===Foo.prototype;//true
+        // debugger
 
+        let obj ={
+            "a":"a",
+            "f":function () {
+                console.log("asdf");
+            }
+        };
+        log(JSON.stringify(obj));
         // log(foo.toLocaleString());//[object Object]
         //
         // log(JSON.stringify(foo));//{"bar":"aaaa"}
