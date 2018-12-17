@@ -58,3 +58,54 @@ package com.liyafeng.video.game.phaser;
       */
      void fun1(){}
 }
+
+
+==============dragonbone===================
+图集，和图集中图片的配置，json tex(texture)纹理
+草图，Skeche
+里面描述了
+骨骼，骨骼是由父子关系的，里面的子骨骼的角度和位移都是相对于父骨骼的，
+
+槽位，定义了槽位，和对应一个骨骼名称，插槽的位置对应骨骼的原点
+
+皮肤，对应一个插槽，和一个display的名称，图片的中心为原点，然后根据插槽位置平移，和旋转
+一个槽位上可以有多个皮肤，皮肤可以是图片，可以是mesh
+这里要声名槽位所有的display，以便于后面动画播放的时候用，是个数组
+
+这个是没有动画播放的初始样子
+---------------
+动画
+bone数组 每个骨骼的动作 一个动画定义了骨骼的动画（旋转和平移）
+slot 每个槽位显示的帧，用index来表示显示哪个display  index不写默认为0
+
+骨骼数组负责运动，使得 骨骼-》槽位-》display（图片）也跟着骨骼运动，display和骨骼是相对静止的
+（如果是mesh也是随着多个骨骼的运动而运动）
+
+
+=====================
+
+     let currentVisibleStudentByNo = EngineUtils.getCurrentVisibleStudentByNo(this.studentMap, "student_1");
+        let student = currentVisibleStudentByNo["0"];
+        if (student !== undefined) {
+            let global = student.armature.getSlot("R_hand").global;
+            let x = global.x * student.scale.x + student.x;
+            let y = global.y * student.scale.y + student.y;
+            console.log(x + "=========" + y);
+        }
+
+
+  let currentVisibleStudentByNo = EngineUtils.getCurrentVisibleStudentByNo(this.studentMap, "student_1");
+            let student = currentVisibleStudentByNo["0"];
+            if (inx === 0) {
+                if (student !== undefined) {
+                    student.armature.getSlot("R_hand").display = image;
+
+                }
+                inx++;
+            } else if (inx === 1) {
+                student.armature.getSlot("R_hand").displayIndex = -1;
+                image.x = 500;
+                image.y = 500;
+                game.add.existing(image);
+                inx++;
+            }
