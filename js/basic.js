@@ -202,3 +202,14 @@ Function.prototype.bind = function (ctx) {
 * 设计模式
 *
 * */
+
+/*
+* =============解构=================
+* https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+* var o = {p: 42, q: true};
+* console.log(foo); // 42
+console.log(bar); // true
+var {p: foo, q: bar} = o;
+* 可以
+*
+* */

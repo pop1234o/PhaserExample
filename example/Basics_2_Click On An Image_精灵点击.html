@@ -45,7 +45,8 @@
         function create() {
 
             var sprite = game.add.sprite(0, 0, 'einstein');
-
+            game.make.sprite();
+            game.add.existing();
 
             var text = game.add.text(0, 0, "text", {fill: "red"});
             var count = 0
