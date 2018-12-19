@@ -45,6 +45,7 @@
             mummy.height=200;
             var anim = mummy.animations.add('walk');
 
+
             game.cache.checkImageKey("");
             // anim.onLoop.add(function () {
             //     back.x -= 10;
@@ -53,10 +54,16 @@
 
             anim.play(10, true);
 
+            game.add.tween(mummy.worldPosition).to({x:300,y:100},3000,"Linear",true);
+            mummy.world.x;
+            mummy.scale.x;
+
+
+            console.log(    Number.parseInt("+100"))
         }
 
         function update() {
-            back.x -= 1;
+            // back.x -= 1;
         }
 
     };
