@@ -82,6 +82,15 @@ slot 每个槽位显示的帧，用index来表示显示哪个display  index不�
 （如果是mesh也是随着多个骨骼的运动而运动）
 
 
+skin 皮肤  里面设置了这个插槽显示的所有可能，数组形式
+  "transform": {
+                    "x": 88.35,
+                    "y": 0.34,    //坐标偏移
+                    "skX": 89.8,
+                    "skY": 89.8  //旋转角度
+                  }
+
+
 =====================
 
      let currentVisibleStudentByNo = EngineUtils.getCurrentVisibleStudentByNo(this.studentMap, "student_1");
