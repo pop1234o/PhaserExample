@@ -77,6 +77,7 @@ package com.liyafeng.video.game.phaser;
 动画
 bone数组 每个骨骼的动作 一个动画定义了骨骼的动画（旋转和平移）
 slot 每个槽位显示的帧，用index来表示显示哪个display  index不写默认为0
+    slot:[ {name:插槽名，parent:依附的骨骼名，displayIndex:0 默认显示的皮肤索引，-1为不显示，默认为0}]
 
 骨骼数组负责运动，使得 骨骼-》槽位-》display（图片）也跟着骨骼运动，display和骨骼是相对静止的
 （如果是mesh也是随着多个骨骼的运动而运动）
@@ -90,7 +91,8 @@ skin 皮肤  里面设置了这个插槽显示的所有可能，数组形式
                     "skY": 89.8  //旋转角度
                   }
 
-
+给骨骼加一个槽位，后写的在上面显示（软件里是排上面）
+然后给槽位加一个skin，然后槽位设置displayIndex为-1，然后显示的时候
 =====================
 
      let currentVisibleStudentByNo = EngineUtils.getCurrentVisibleStudentByNo(this.studentMap, "student_1");
