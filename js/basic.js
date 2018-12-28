@@ -212,4 +212,7 @@ console.log(bar); // true
 var {p: foo, q: bar} = o;
 * 可以
 *
+* ==================箭头函数======================
+* https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+* this默认指向的是外层的this对象， 而箭头函数本身没有this，所以不能调用call传入this
 * */

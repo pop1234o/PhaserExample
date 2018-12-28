@@ -47,9 +47,12 @@
             var sprite = game.add.sprite(0, 0, 'einstein');
 
 
-            game.add.tween(sprite)
-                .to({x: 800, y: 100}, 1000, Phaser.Easing.Linear.None, true, 0, 10, true)
+            let tween = game.add.tween(sprite)
+                .to({x: 800, y: 100}, 1000, Phaser.Easing.Linear.None, true, 0, 10, true);
 
+            tween.onComplete.add(()=>{
+
+            })
         }
 
 
