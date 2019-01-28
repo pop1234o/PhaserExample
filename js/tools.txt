@@ -134,3 +134,26 @@ public class Tools_Js {
       */
      void fun3(){}
 }
+
+[git]
+git remote命令列出所有远程主机
+git remote add origin xxx.git
+git fetch origin  获取远程仓库
+
+git fetch origin dev:dev 获取仓库的分支到本地
+或者
+git checkout -b dev origin/dev
+(fetch后的代码 remote->local repository
+然后我们 git checkout -b dev origin/dev 就能创建一个分支，然后切换到那个分支的代码
+)
+
+【删除】
+git remote remove origin 删除本地的远程仓库
+git remote add origin xxx.git
+
+git branch -d dev 删除本地分支
+git branch -d -r dev 删除本地的 远程dev分支(repository中的分支)
+git push origin :dev 将服务器中的分支也删除
+
+
+

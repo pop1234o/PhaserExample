@@ -145,3 +145,28 @@ skin 皮肤  里面设置了这个插槽显示的所有可能，数组形式
 =============确定坐标============
 1，确定坐标系原点
 2.确定物体的锚点，  和x，有y
+
+
+
+
+
+
+
+
+
+
+
+pixi.js:1017 Uncaught Error: The supplied DisplayObject must be a child of the caller
+    at PhaserArmatureDisplay../libs/phaser/pixi.js.PIXI.DisplayObjectContainer.getChildIndex (pixi.js:1017)
+    at PhaserSlot../libs/dragonbones/dragonBones.module.js.PhaserSlot._updateZOrder (dragonBones.module.js:15030)
+    at PhaserSlot../libs/dragonbones/dragonBones.module.js.Slot.update (dragonBones.module.js:6319)
+    at Armature../libs/dragonbones/dragonBones.module.js.Armature.advanceTime (dragonBones.module.js:3819)
+    at WorldClock../libs/dragonbones/dragonBones.module.js.WorldClock.advanceTime (dragonBones.module.js:7202)
+    at DragonBones../libs/dragonbones/dragonBones.module.js.DragonBones.advanceTime (dragonBones.module.js:64)
+    at PlayState.render (PlayState.js:1580)
+    at ./libs/phaser/phaser-split.js.Phaser.StateManager.render (phaser-split.js:8941)
+    at Playground.updateRender (phaser-split.js:15764)
+    at Playground.updateRender (Playground.js:55)
+
+
+
